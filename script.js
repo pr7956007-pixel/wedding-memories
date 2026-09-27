@@ -73,7 +73,7 @@ document.addEventListener("keydown", (event) => {
 
 
 // ---------- Wedding Music ----------
-const weddingAudio = new Audio("music/Audio.mp3");
+const weddingAudio = new Audio("Audio.mp3");
 
 weddingAudio.loop = true;
 
