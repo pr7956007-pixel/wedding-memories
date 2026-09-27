@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7a2848">
+  <title>A Beautiful Beginning ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="petals" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-glow"></div>
+    <p class="eyebrow">A DAY TO REMEMBER</p>
+    <h1>A Beautiful<br><span>Beginning</span></h1>
+    <p class="subtitle">Celebrating love, family & beautiful memories ❤️</p>
+    <button id="musicBtn" class="music-btn" type="button">
+      <span id="musicIcon">♪</span> <span id="musicText">Play Music</span>
+    </button>
+    <a class="scroll" href="#memories">↓ Explore Memories</a>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="ornament">❦</div>
+      <h2>Forever in Our Hearts</h2>
+      <p>Some days pass, but the memories they create stay with us forever.</p>
+    </section>
+
+    <section id="memories" class="gallery-section">
+      <p class="eyebrow">THE MEMORIES</p>
+      <h2>Moments of Love</h2>
+      <div class="gallery">
+        <button class="photo-card tall" data-index="0" aria-label="Open wedding photo 1">
+          <img src="photos/photo1.jpg" alt="Wedding celebration">
+          <span>Beautiful moments</span>
+        </button>
+        <button class="photo-card" data-index="1" aria-label="Open wedding photo 2">
+          <img src="photos/photo2.jpg" alt="Wedding portrait">
+          <span>A smile to remember</span>
+        </button>
+        <button class="photo-card" data-index="2" aria-label="Open wedding photo 3">
+          <img src="photos/photo3.jpg" alt="Family wedding photo">
+          <span>Family & togetherness</span>
+        </button>
+        <button class="photo-card" data-index="3" aria-label="Open wedding photo 4">
+          <img src="photos/photo4.jpg" alt="Wedding day couple photo">
+          <span>Two hearts, one memory</span>
+        </button>
+<button class="photo-card" data-index="4" aria-label="Open wedding photo 5">
+  <img src="photos/photo5.jpg" alt="Wedding memory">
+  <span>Another beautiful memory</span>
+</button>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="quote-mark">“</div>
+      <p>Some moments become memories,<br>and some memories stay forever.</p>
+      <div class="ornament">❦</div>
+    </section>
+
+    <section class="closing">
+      <div class="ring">♡</div>
+      <h2>With Love</h2>
+      <p>May this beautiful new chapter be filled with happiness, laughter and endless love.</p>
+      <div class="hearts">♥　♡　♥</div>
+    </section>
+  </main>
+
+  <footer>Made with ❤️ for a beautiful family memory</footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="closeLightbox" class="close" aria-label="Close">×</button>
+    <button id="prevPhoto" class="nav prev" aria-label="Previous photo">‹</button>
+    <img id="lightboxImage" src="" alt="Wedding memory">
+    <button id="nextPhoto" class="nav next" aria-label="Next photo">›</button>
+    <p id="photoCounter"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
